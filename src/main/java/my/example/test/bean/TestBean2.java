@@ -1,7 +1,7 @@
 package my.example.test.bean;
 
 import my.example.spring.annotation.Scope;
-import my.example.spring.annotation.Service;
+import my.example.spring.annotation.Component;
 
 /**
  * @author mars
@@ -9,7 +9,7 @@ import my.example.spring.annotation.Service;
  * @date 2023-02-10 13:57
  */
 @Scope("prototype")
-@Service
+@Component
 public class TestBean2 {
 	private String name = "hello world";
 

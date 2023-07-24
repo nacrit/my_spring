@@ -1,13 +1,13 @@
 package my.example.test.bean;
 
-import my.example.spring.annotation.Service;
+import my.example.spring.annotation.Component;
 
 /**
  * @author mars
  * @description TestBean
  * @date 2023-02-10 13:57
  */
-@Service("testBeanxx")
+@Component("testBeanxx")
 public class TestBean {
 	private String name = "hello world";
 
